@@ -22,17 +22,17 @@ The dataset used for training our deepfake audio detection models is the 'Fake o
 
 For enhanced model performance, the audio files were converted into spectrograms. Spectrograms are visual representations of the spectrum of frequencies in a sound or other signal as they vary with time, which provides a more informative feature set for deep learning models.
 
-![Example Spectrogram](path_to_your_image/example_spectrogram.png)
+![Example Spectrogram](https://raw.githubusercontent.com/Aamir-Hullur/Deepfake-Audio-detection-using-XAI/main/img/spectrogram_example.png)
 
 ## Model Performance
-![Model Performance](images/Model_performance.png)
+![Model Performance](https://raw.githubusercontent.com/Aamir-Hullur/Deepfake-Audio-detection-using-XAI/main/img/Model_performanc.png)
 
 ## XAI Model Comparison
-![XAI Model Comparison](images/XAI_model_comparison.png)
+![XAI Model Comparison](https://raw.githubusercontent.com/Aamir-Hullur/Deepfake-Audio-detection-using-XAI/main/img/XAI_model_comparison.png)
 
 ## Streamlit Web Application
 
 This project includes a Streamlit web application that provides a user-friendly interface for interacting with the deepfake audio detection models. Below is a preview of the application in action.
 
-![Streamlit App Demo](path_to_your_gif/demo.gif)
+![Streamlit App Demo](https://raw.githubusercontent.com/Aamir-Hullur/Deepfake-Audio-detection-using-XAI/main/img/Streamlit_demo.gif)
 
