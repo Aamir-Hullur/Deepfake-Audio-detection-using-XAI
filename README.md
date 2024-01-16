@@ -1,1 +1,38 @@
-# Deepfake-Audio-detection-using-XAI
+# Deepfake Audio Detector with XAI
+
+## Project Overview
+This project aims to tackle the challenge of identifying deepfake audio. Utilizing advanced neural network models, including VGG16, MobileNet, ResNet, and custom CNNs, the project enhances detection accuracy. A unique aspect of our approach is the incorporation of explainable AI (XAI) techniques, such as LIME, Grad-CAM, and SHAP, to provide insightful explanations behind model predictions.
+
+## Technologies Used
+- **Deep Learning Models**: VGG16, MobileNet, ResNet, Custom CNNs
+- **Explainable AI (XAI) Techniques**: LIME, Grad-CAM, SHAP
+- **Data Processing**: Spectrogram conversion for audio data
+- **Programming Languages and Libraries**: Python, TensorFlow, Keras, Matplotlib, NumPy
+- **Development Tools**: Jupyter Notebooks
+- **Web Application Framework**: Streamlit for interactive web app deployment
+
+## Key Features
+- Use of various deep learning models for audio classification.
+- Conversion of audio to spectrograms for improved model performance.
+- Application of XAI methods for greater transparency in model decisions.
+- Comparative analysis of different models based on accuracy and explainability.
+
+## Dataset
+The dataset used for training our deepfake audio detection models is the 'Fake or Real' dataset, created by researchers from York University. This dataset consists of authentic and deepfake audio recordings that have been used to train our models to distinguish between real and fake samples effectively.
+
+For enhanced model performance, the audio files were converted into spectrograms. Spectrograms are visual representations of the spectrum of frequencies in a sound or other signal as they vary with time, which provides a more informative feature set for deep learning models.
+
+![Example Spectrogram](path_to_your_image/example_spectrogram.png)
+
+## Model Performance
+![Model Performance](images/Model_performance.png)
+
+## XAI Model Comparison
+![XAI Model Comparison](images/XAI_model_comparison.png)
+
+## Streamlit Web Application
+
+This project includes a Streamlit web application that provides a user-friendly interface for interacting with the deepfake audio detection models. Below is a preview of the application in action.
+
+![Streamlit App Demo](path_to_your_gif/demo.gif)
+
